@@ -1,5 +1,7 @@
 # MediLens
 
+Medical-AI
+
 MediLens is a college mini project that helps people understand medical lab
 reports in simple language. It accepts report PDFs and images, can answer
 questions by text or recorded audio, and can read explanations aloud. It also
