@@ -103,6 +103,7 @@ def enrich_tests(tests: list[dict]) -> list[dict]:
             test["status"] = model_status
             test["status_source"] = "model"
         test["model_status"] = model_status
+        test["standard_name"] = (test.get("standard_name") or test.get("test_name") or "Unknown").strip()
         enriched.append(test)
     return enriched
 
